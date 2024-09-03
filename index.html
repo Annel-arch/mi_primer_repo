@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Online - Aprende con Nosotros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .course {
+            border-bottom: 1px solid #ddd;
+            padding: 15px 0;
+        }
+        .course:last-child {
+            border-bottom: none;
+        }
+        .course h3 {
+            margin: 0;
+            color: #333;
+        }
+        .course p {
+            margin: 5px 0;
+            color: #666;
+        }
+        .course button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .course button:hover {
+            background-color: #218838;
+        }
+        .testimonial {
+            font-style: italic;
+            color: #555;
+            margin: 10px 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form label {
+            margin-bottom: 5px;
+            color: #333;
+        }
+        form input, form textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Academia Online</h1>
+        <nav>
+            <a href="#cursos">Cursos</a>
+            <a href="#testimonios">Testimonios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Sección de cursos -->
+    <section id="cursos">
+        <h2>Nuestros Cursos</h2>
+        <div class="course">
+            <h3>Curso 1: Introducción a la Programación</h3>
+            <p>Aprende los fundamentos básicos de programación con este curso completo para principiantes.</p>
+            <p><strong>Precio:</strong> $50</p>
+            <button>Comprar ahora</button>
+        </div>
+        <div class="course">
+            <h3>Curso 2: Desarrollo Web con HTML, CSS y JavaScript</h3>
+            <p>Crea sitios web modernos y responsivos aprendiendo las tecnologías clave del desarrollo web.</p>
+            <p><strong>Precio:</strong> $75</p>
+            <button>Comprar ahora</button>
+        </div>
+        <div class="course">
+            <h3>Curso 3: Marketing Digital Avanzado</h3>
+            <p>Domina las estrategias de marketing digital para hacer crecer tu negocio online.</p>
+            <p><strong>Precio:</strong> $100</p>
+            <button>Comprar ahora</button>
+        </div>
+    </section>
+
+    <!-- Sección de testimonios -->
+    <section id="testimonios">
+        <h2>Testimonios de Nuestros Estudiantes</h2>
+        <p class="testimonial">"El curso de programación fue excelente, aprendí mucho y ahora estoy trabajando como desarrollador." - Juan Pérez</p>
+        <p class="testimonial">"Gracias al curso de desarrollo web, pude crear mi propia página para mi negocio. ¡Altamente recomendado!" - María López</p>
+        <p class="testimonial">"El curso de marketing digital me ayudó a mejorar mis campañas y aumentar mis ventas." - Carlos Martínez</p>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Academia Online. Todos los derechos reservados.</p>
+        <nav>
+            <a href="#">Política de privacidad</a> |
+            <a href="#">Términos de servicio</a> |
+            <a href="#">Contacto</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
