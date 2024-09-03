@@ -17,7 +17,7 @@ Por lo que, para mi primer ejemplo hize una replica de una Tienda online básica
 
     ```
 
-    cd nombre-del-proyecto
+    No es necesario
 
     ```
 
